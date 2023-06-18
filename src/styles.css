@@ -1,0 +1,121 @@
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+    }
+    
+    @media (min-width: 1025px) {
+    .h-custom-2 {
+    height: 100%;
+    }
+    }
+    .left{
+        position: absolute;
+width: 588px;
+height: 1024px;
+left: 0px;
+top: 0px;
+background: #000000;
+    }
+
+.board{
+    position: absolute;
+width: 246px;
+height: 88px;
+left: 171px;
+top: 300px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 88px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.right{
+    position: absolute;
+width: 852px;
+height: 1024px;
+left: 588px;
+top: 0px;
+
+/* Background */
+
+background: #F5F5F5;
+}
+
+.signin{
+position: relative;
+width: 131px;
+height: 44px;
+left: 50px;
+top: 120px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.signinto{
+    position: relative;
+width: 161px;
+height: 19px;
+left: 50px;
+top: 130px;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #000000;
+}
+
+.newbox{
+    position: relative;
+    left:50px;
+    top: 10px;
+
+}
+
+.button{
+    position: absolute;
+left: 0%;
+
+right: 0%;
+top: 70%;
+bottom: 20%;
+color: white;
+background: #000000;
+border-radius: 10px;
+}
+.b1{
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+margin-left: 50px;
+margin-top: 140px;
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.b2{
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+margin-top: 140px;
+margin-left: 10px;
+background: #FFFFFF;
+border-radius: 10px;
+}
